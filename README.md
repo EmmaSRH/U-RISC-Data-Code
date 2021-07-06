@@ -7,9 +7,26 @@ The data and code of U-RISC cell membrane segmentation
 
 Please download the dataset from 
 
+### Folder Directory
+
+* U-RISC-DATA
+    - imgs
+        - Track1
+            - train
+            - val
+            - test
+        - Track2
+        - Track2\_original\_size
+    - label
+    - Human\_Annotation\_Process
+        - 1st
+        - 2nd
+        - final
+
+
 ## Evaluation
 
-The output of an image of U-RISC is a binary segmentation image. And the evaluation criterion is F1-score. 
+The output of U-RISC dataset are binary segmentation images. And the evaluation criterion is F1-score. 
 
 ### Examples:
 
