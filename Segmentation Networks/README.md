@@ -2,13 +2,13 @@
 
 ## Segmentation Networks
 
-### Hardware
+### 1. Hardware
 NVIDIA A100 (GPU Memory 48GB each)
 
-### Packages
+### 2. Packages
 > pip install -r requirements.txt
 
-### U-Net
+### 3. U-Net
 * train
 
 	```
@@ -24,7 +24,7 @@ NVIDIA A100 (GPU Memory 48GB each)
 	```
 
 
-### LinkNet
+### 4. LinkNet
 * train
 
 	```
@@ -38,7 +38,7 @@ NVIDIA A100 (GPU Memory 48GB each)
 	CUDA_VISIBLE_DEVICES=0 python test.py
 	```
 	
-### CASENet
+### 5. CASENet
 * train
 
 	```
@@ -52,7 +52,7 @@ NVIDIA A100 (GPU Memory 48GB each)
 	CUDA_VISIBLE_DEVICES=0 python test.py
 	```
 
-### U-Net-transfer
+### 6. U-Net-transfer
 * train
 
 	```
@@ -65,4 +65,20 @@ NVIDIA A100 (GPU Memory 48GB each)
 	cd U-Net-transfer
 	CUDA_VISIBLE_DEVICES=0 python test.py
 	```
-	
+
+### 7. Weight
+
+The weight for networks can be download from
+
+* Google Drive
+
+ > https://drive.google.com/drive/folders/1SJdsfoNUNJmBVcT_UFb_KgNsVum_uCmi?usp=sharing
+
+
+* MEGA 
+
+ > https://mega.nz/folder/HDw3QAYa#bR333xgA0cSA69UaFfMjig
+ 
+* Baidu Cloud
+
+ > https://pan.baidu.com/s/1VkQ5W_h2e2mGLtrgTosBjA code：o9h3 

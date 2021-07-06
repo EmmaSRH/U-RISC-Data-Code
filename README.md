@@ -5,7 +5,24 @@ This repo holds data and code for U-RISC cell membrane segmentation.
 
 ### 1. Download
 
-Please download the dataset from 
+There are three ways for users to download the dataset.
+
+* Google Drive
+
+
+ > https://drive.google.com/drive/folders/14u-TMK8kDJWMvZbr7KTQKwHpFqe9lrYU?usp=sharing
+
+
+* MEGA 
+
+ > https://mega.nz/folder/HTIBkQzb#Dg2duJyMlghT9u5tM6EH7Q
+
+* Baidu Cloud
+
+ > https://pan.baidu.com/s/11WRPCJOu-R1h5ns3Fht80A code：zciq 
+
+
+
 
 ### 2. Folder Directory
 
