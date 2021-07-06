@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="935c2582-61bf-4a40-b040-93c7ea003b2d" name="srh@162.105.98.218" url="http://162.105.98.218">
+        <fileTransfer host="162.105.98.218" port="2729" rootFolder="/home/srh" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2729" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e8c06afa-bf4e-4789-85c1-d6aac8c2d732" name="A100-unet" url="http://120.92.76.73">
+        <fileTransfer host="120.92.76.73" port="22" rootFolder="/home/srh" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f61131c2-e025-4087-bae4-957b9ff66c9e" name="dgx1-unet" url="http://162.105.94.189">
+        <fileTransfer host="162.105.94.189" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

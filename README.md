@@ -1,13 +1,13 @@
 # U-RISC-Data-Code
-The data and code of U-RISC cell membrane segmentation
+This repo holds data and code for U-RISC cell membrane segmentation.
 
 ## Dataset
 
-### Download
+### 1. Download
 
 Please download the dataset from 
 
-### Folder Directory
+### 2. Folder Directory
 
 * U-RISC-DATA
     - imgs
@@ -46,66 +46,22 @@ The output of U-RISC dataset are binary segmentation images. And the evaluation 
 
 ## Segmentation Networks
 
-### Hardware
-NVIDIA A100 (GPU Memory 48GB each)
+This part holds code for segmentation networks of U-RISC cell membrane segmentation. 
 
-### Packages
-> pip install -r requirements.txt
-
-### U-Net
-* train
-
-	```
-	cd U-Net
-	CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py	```
-	
-* test
-
-	```
-	cd U-Net
-	CUDA_VISIBLE_DEVICES=0 python test.py
-	```
+***Updating...***
 
 
-### LinkNet
-* train
+## Citations
 
-	```
-	cd LinkNet/src
-	CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py	```
-	
-* test
+```
+@article{shi2021u,
+  title={U-RISC: An Ultra-high Resolution EM Dataset Challenging Existing Deep Learning Algorithms},
+  author={Shi, Ruohua and Wang, Wenyao and Li, Zhixuan and He, Liuyuan and Sheng, Kaiwen and Ma, Lei and Du, Kai and Jiang, Tingting and Huang, Tiejun},
+  journal={bioRxiv},
+  year={2021},
+}
 
-	```
-	cd LinkNet/inference
-	CUDA_VISIBLE_DEVICES=0 python test.py
-	```
-	
-### CASENet
-* train
+```
 
-	```
-	cd CASENet
-	CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py	```
-	
-* test
 
-	```
-	cd CASENet
-	CUDA_VISIBLE_DEVICES=0 python test.py
-	```
-
-### U-Net-transfer
-* train
-
-	```
-	cd U-Net-transfer
-	CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python main.py	```
-	
-* test
-
-	```
-	cd U-Net-transfer
-	CUDA_VISIBLE_DEVICES=0 python test.py
-	```
 	
